@@ -1,0 +1,33 @@
+Overloading:-
+methods with same name but different signature
+
+calls are made on the basis of match ie args passed
+
+Overriding:- 
+writing the method in the child class which
+has same name and signature as that of parent
+
+
+Use: Overloading allows multiple implementation of the same essential  functionality to use the same name.
+
+
+Difference between
+
+Generally single class in case of Overloading
+There are two classes involved in case of Overriding
+
+In overloading methods are added
+In Overriding the methods are replaced
+
+return type does not plays important role in case of overloading but 
+return type plays important role in case of overriding
+
+
+
+Note:-
+Overloading can be done in the same class or subclass.
+Private methods are not inherited hence not overridden.
+Static methods cannot be overridden.
+
+
+

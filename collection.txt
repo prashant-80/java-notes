@@ -1,0 +1,41 @@
+Collection:- collection is a single object which refrences group of object where each object is known as element
+
+Collections are of two types
+List
+Set
+queue
+
+List is an ordered collection which  allows duplicates 
+eg:- ArrayList, LinkedList and Vector
+
+Set is an unordered collection which does not allows repetation ie duplicates
+eg:-HashSet and TreeSet 
+
+Map is a key value pair
+eg:HashMap,HashTable
+
+
+Vector is a growable array of object
+	
+
+            Vector vt = new Vector();
+	vt.add("cow");
+	vt.add("dog");
+             System.out.println(vt);
+
+methods of vector are synchronized 
+methods of arrylist  are  not synchronized 
+
+
+import java.util.*
+class Test
+{
+ public static void main(String[] args)
+ {
+  ArrayList< String> al = new ArrayList< String>();
+  al.add("ab");
+  al.add("bc");
+  al.add("cd");
+  system.out.println(al);
+ }
+}

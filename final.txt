@@ -1,0 +1,18 @@
+Staic variable 
+--------------------
+
+1.Staic variable can be referred through a class name,rather than an instance name.
+Class.methodName
+Class.VariableName
+
+2.Static variable is shared among all instance of a class.
+
+3.If static variable is incremented in a constructor,its value will keep on     incrementing depending upon the no. of times constructor is called and it will be possible to know how many instance have been created.
+
+
+Final Keyword
+--------------------------------------
+
+if avariable is declared final its value will not change and u need to initilize the variable
+if a method is declared final u cannot override the method
+if a class is declared final u can not extend the class

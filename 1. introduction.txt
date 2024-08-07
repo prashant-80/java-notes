@@ -1,0 +1,22 @@
+
+
+1) simple:- Its eaiser to learn
+
+
+2) Objected-oriented:- every thing is java is in then form of 
+		classes and object.so its provides opps feauturs of 1,2,3,4
+
+3)multithreaded:-multiple parts(task) running at the same time.eg when you play games on the computer ,games and msword
+
+4) Distributed:-An application which run across mutliple host.
+                       from local machine as well as net
+
+4)secure:- java does not allows the programmer to manipulate the  meomory 
+               of the system or perform pointer arithmetic.Its much more secure than c++
+
+------------------------------------------
+
+
+
+
+

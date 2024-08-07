@@ -1,0 +1,54 @@
+ctr:- A ctr is a special method which is used
+         to initilize object
+
+
+
+difference between method and ctr
+
+method
+  They can have any name
+  They may or may not have return type if not 
+   then void
+  They have to be called on an object
+  They can perform any type of task
+
+ctr
+  They have same name as that of class
+  They do not have any return type not even void
+  They are called automatically
+  They are specifically used to intilize object
+
+Note:-
+ ctrs are not inherited
+ ctrs are called in the order of inheritance
+ ctrs can be overloaded but they cannot be overriden
+ not a single object can be created without ctr
+ if do not provide the ctr then compile will create a defualt ctr for u 
+ a default ctr is a non argument ctr
+ eg:-
+ 
+  class Rock
+  {
+   Rock(  ) //default ctr
+  { }
+  }
+
+if u create the ctr then compiler will not create
+a default ctr for u
+
+
+
+
+super and this
+--------------------
+
+super is used to call the desired version of superclass ctr
+Call to super() must be first statement in constructor of subclass.
+
+
+
+this() is used for inter constructor communication
+call to this must be first statement in constructor
+
+
+

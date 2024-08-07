@@ -1,0 +1,43 @@
+
+Abstract class:-
+An  abstract class is a class which contains abstract method
+A abstract method is a method which do not have body, not even curly braces
+
+Any class with one or more abstract method is declared abstract.
+
+An Abstract class can contain concreate methods.The concrete methods are the methods with body.
+It is not a must to override concrete methods in the child class
+
+
+
+eg:- 
+
+abstract class Abc
+{
+  abstract  void meth(); // abstract method
+     void conc()  //concrete method as it has body
+	{
+	}
+}
+
+An abstract class cannot be instantiated ie object of absctact 
+class cannot be created as it is an incomplete class
+
+if a class contains abstract method then that class should
+be declared abstract
+
+if a class extends abstract class then there are only 2 options
+1) declare the child class as an abstract class
+2)  override the inhertied abstract method in the child class
+
+
+Use:- Absctract class forces the sub-classes to follow a particular pattern
+
+
+
+Note:-
+An Abstract class can have constructor
+Adapter classes are the classes with provide empty implementation of abstract method
+of abstract class 
+
+

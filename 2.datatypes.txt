@@ -1,0 +1,63 @@
+
+8 type of primitive
+--------------------------
+datatypes				bits 	bytes	default value			
+
+byte					8	1			0					
+short				16	2			0				
+int 					32	4			0				
+long					64	8			0				
+
+
+float					32	4			0.0
+double				64	8			0.0
+
+char					16	2			\u0000				
+boolean				1	-			false
+	
+
+any object defaults to  null
+
+
+Types of var
+	local
+	instance
+	static
+
+
+static int i; // static
+	  int j;  // insta
+void meth()
+	{
+	  int k=0;  //local
+	}
+}
+
+local and instance
+-----------------------------------
+declared inside method 
+declared outside  method
+
+has to be initilized
+need not be initilized takes default value
+
+created,initilized and destroyed for every method call
+retains the value
+
+
+
+instance and static
+---------------------------------
+is the part of object
+present outside the object
+
+every object has its own copy of instance variable
+shared from a common location
+
+life is till the life of object
+exists even if object is destroyed
+
+ object.varablename  ie ob.i;
+ class.variablename  ie Abc.i;or ob.i
+
+

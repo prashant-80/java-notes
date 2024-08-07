@@ -1,0 +1,93 @@
+interfaces are pure abstract class which does not contains
+concrete methods
+
+inteface Abc
+{
+   public static final int i;
+   public abstract void meth();
+}
+
+by default variables are public static and final
+by default methods are public and abstract
+
+
+we use implement key words with interfaces
+simple example:-
+__________________
+
+interface Apple
+{
+   void meth();
+}
+
+class Abc implements Apple
+{
+public void meth()
+	{
+	      System.out.println("inside meth");
+	}
+public static void main(String args[])
+	{
+	    Abc ob =new Abc();
+		ob.meth();
+	}
+}
+
+--------------------------------
+java does not support multiple inheritance 
+ie one class cannot have two parents
+to achive  the feature of multiple inheritance we have interfaces
+a single class can implement multiple interfaces
+
+ interface Apple
+	{ 
+	 void display();
+     }
+	
+interface Orange 
+		{
+		public void eat();
+		}
+
+class normal  implements Apple,Orange
+	{
+	    public void eat()  ///////////// necessity of public 
+		{
+			System.out.println("I  drink orange");
+		}
+
+        public void  display()
+		{
+			System.out.println(" an Apple a day...");
+        }
+
+			public static void main (String args[])
+		{
+				normal n = new normal();
+			n.eat();
+			n.display();
+
+		}
+	}
+
+
+Interface cannot be instaniated.
+one interface extends another  interface
+while overriding the methods of interface  it should be public
+when ever using extends and implements keyword together first write extends and then implements
+
+
+
+difference between inteface and abstract class
+___________________________________________________
+
+abstract class can have concrete method
+an interface can not have concreate method
+
+abstract classes has to be extended 
+interfaces are implemented
+
+by default varible are not public static and final
+by default variables in interface are public static and final
+_____________________________________________________
+
